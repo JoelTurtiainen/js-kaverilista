@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.friend-list {
+  font-size: 1.5em;
+  width: 400px;
+  border: 1px solid;
+  border-radius: 1em;
+  border-color: black;
+}
+
+.friend-list h1,
+.friend-list p {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+}
+
+.friend-list h1 {
+  text-decoration: underline wavy;
+  text-decoration-thickness: 2px;
+}
+
+.friend-list li {
+  padding-left: 0.7em;
+}
+
+.friend-list form {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  margin-bottom: 10px;
+}
